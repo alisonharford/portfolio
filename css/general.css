@@ -1,0 +1,153 @@
+body {
+	background-color:#fffbf7;
+}
+
+h2 {
+	color:#4A4A4A;
+	font-family: 'Zilla Slab', serif;
+	font-weight:300;
+	font-size:20px;
+	text-align: center;
+
+}
+
+.vertical {
+	transform:rotate(-90deg);
+	float:left;
+	margin-top:250px;
+	margin-left:-170px;
+	margin-right:-150px;
+}
+
+.bg {
+	margin-top:120px;
+}
+
+.navname {
+	color:#000000;
+	font-family: 'Zilla Slab', serif;
+	font-weight:300;
+	font-size:20px;
+	margin-top:50px;
+}
+
+.navlinks {
+	color:#797c80;
+	font-family: 'Zilla Slab', serif;
+	font-weight:300;
+	font-size:16px;
+	margin-top:-5px;
+}
+
+.navlinks:hover {
+	background-color:#EBD1C1;
+	color:#4c545c;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.link2 {
+	color:#ffc833;
+	font-family: 'Yeseva One', cursive;
+	font-weight:300;
+	font-size:7vw;
+	line-height:6vw;
+	text-decoration:none;
+}
+
+.link2:hover {
+	text-decoration:none;
+	color:#bedbba;
+}
+
+.link3 {
+	color:#ffbe0d;
+	font-family: 'Yeseva One', cursive;
+	font-weight:300;
+	font-size:7vw;
+	line-height:6vw;
+	text-decoration:none;
+}
+
+.link3:hover {
+	text-decoration:none;
+	color:#bedbba;
+}
+
+.link4 {
+	color:#ffaa00;
+	font-family: 'Yeseva One', cursive;
+	font-weight:300;
+	font-size:4vw;
+	line-height:6vw;
+	text-decoration:none;
+}
+
+.link4:hover {
+	text-decoration:none;
+	color:#bedbba;
+}
+
+.link1 {
+	color:#ffd257;
+	-webkit-transition: color #9fb7bd; /* Safari */
+  	transition: #9fb7bd;
+  	-webkit-transition-timing-function: ease;
+  	font-family: 'Yeseva One', cursive;
+	font-weight:300;
+	font-size:7vw;
+	line-height:6vw;
+	text-decoration:none;
+}
+
+.link1:hover {
+	text-decoration:none;
+	color:#bedbba;
+}
+
+.clipshed {
+	color: #4a525c;
+	font-family: 'Yeseva One', cursive;
+	font-size:22px;
+}
+
+.clipshed2 {
+	color:#797c80;
+	font-family: 'Zilla Slab', serif;
+	font-weight:700;
+	font-size:18px;
+}
+
+.clipsrole {
+	color:#797c80;
+	font-family: 'Zilla Slab', serif;
+	font-weight:300;
+	font-size:17px;
+	margin-top:-13px;
+}
+
+.clippageimg {
+	margin-top:10px;
+}
+
+hr {
+	color:#797c80;
+	stroke:3px;
+}
+
+footer {
+	height:20px;
+}
+
+.page {
+	width:100%;
+	overflow-y:hidden;
+	overflow-x:auto;
+}
+
+.margintop{
+	margin-top:50px;
+}
