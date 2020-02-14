@@ -45,6 +45,20 @@ h2 {
 	text-decoration:none;
 }
 
+.navlinksresume {
+	color:#000000;
+	font-family: 'Zilla Slab', serif;
+	font-weight:300;
+	font-size:16px;
+	margin-top:-5px;
+}
+
+.navlinksresume:hover {
+	background-color:#ffffff;
+	color:#000000;
+	text-decoration:none;
+}
+
 a:hover {
 	text-decoration:none;
 }
