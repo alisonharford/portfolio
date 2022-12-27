@@ -1,125 +1,151 @@
 body {
-	background-color:#ffffff;
+	margin:0px; 
+	padding:0px;
 }
 
 h2 {
 	color:#4A4A4A;
-	font-family: 'Zilla Slab', serif;
-	font-weight:300;
-	font-size:20px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:  17px;
 	text-align: center;
 
 }
 
-.vertical {
-	transform:rotate(-90deg);
-	float:left;
-	margin-top:250px;
-	margin-left:-170px;
-	margin-right:-150px;
+.bgorange {
+	width: 500;
+	background-color: #008738;
+	padding-bottom: 20%;
 }
 
-.bg {
-	margin-top:120px;
+.bgorange2 {
+	width: 500;
+	background-color: #008738;
+	padding-bottom: 5%;
+}
+
+.middle {
+	margin: auto;
+	text-align: center;
 }
 
 .navname {
-	color:#000000;
-	font-family: 'Zilla Slab', serif;
-	font-weight:300;
-	font-size:20px;
-	margin-top:50px;
+	color:#ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.header {
+	color:#008738;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.header2 {
+	color:black;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:15px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.headerwhite {
+	color:#ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	padding-top: 30px;
+	text-align: center;
 }
 
 .navlinks {
-	color:#797c80;
-	font-family: 'Zilla Slab', serif;
-	font-weight:300;
-	font-size:16px;
-	margin-top:-5px;
+	color:#ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:13px;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	opacity: 0.6;
+	transition: 0.6s;
+}
+
+.abouttext {
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+	color: #ffffff;
+	font-size: 23px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+}
+
+.abouttext2 {
+	margin: auto;
+	text-align: center;
+	margin-top: 5%;
+	color: #ffffff;
+	font-size: 23px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
 }
 
 .navlinks:hover {
-	background-color:#EBD1C1;
-	color:#4c545c;
-	text-decoration:none;
+	opacity: 1;
 }
 
-.navlinksresume {
-	color:#000000;
-	font-family: 'Zilla Slab', serif;
-	font-weight:300;
-	font-size:16px;
-	margin-top:-5px;
+.designwork {
+	margin-top: 30px;
 }
 
-.navlinksresume:hover {
-	background-color:#ffffff;
-	color:#000000;
-	text-decoration:none;
+.marginbottom {
+	margin-bottom: 60px;
+}
+
+p.date {
+	color:#ffffff; 
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	line-height: 60px;
+	opacity: 0.5;
+}
+
+p.headline {
+	color:#ffffff; 
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:37px;
+	line-height: 35px;
+	opacity: 0.5;
+	transition: 0.6s;
+}
+
+p.headline:hover {
+	opacity: 1;
+}
+
+a.linkanimation {
+	color:#ffffff;
+	opacity: 0.5;
+	transition: 0.6s;
+}
+
+a.linkanimation:hover {
+	opacity: 1;
 }
 
 a:hover {
 	text-decoration:none;
-}
-
-.link2 {
-	color:#ffc833;
-	font-family: 'Yeseva One', cursive;
-	font-weight:300;
-	font-size:7vw;
-	line-height:6vw;
-	text-decoration:none;
-}
-
-.link2:hover {
-	text-decoration:none;
-	color:#bedbba;
-}
-
-.link3 {
-	color:#ffbe0d;
-	font-family: 'Yeseva One', cursive;
-	font-weight:300;
-	font-size:7vw;
-	line-height:6vw;
-	text-decoration:none;
-}
-
-.link3:hover {
-	text-decoration:none;
-	color:#bedbba;
-}
-
-.link4 {
-	color:#ffaa00;
-	font-family: 'Yeseva One', cursive;
-	font-weight:300;
-	font-size:7vw;
-	line-height:6vw;
-	text-decoration:none;
-}
-
-.link4:hover {
-	text-decoration:none;
-	color:#bedbba;
-}
-
-.link1 {
-	color:#ffd257;
-	-webkit-transition: color #9fb7bd; /* Safari */
-  	transition: #9fb7bd;
-  	-webkit-transition-timing-function: ease;
-  	font-family: 'Yeseva One', cursive;
-	font-weight:300;
-	font-size:7vw;
-	line-height:6vw;
-	text-decoration:none;
-}
-
-.link1:hover {
-	text-decoration:none;
-	color:#bedbba;
 }
 
 .clipshed {
@@ -138,7 +164,7 @@ a:hover {
 .clipsrole {
 	color:#797c80;
 	font-family: 'Zilla Slab', serif;
-	font-weight:300;
+	font-weight:400;
 	font-size:17px;
 	margin-top:-13px;
 }
@@ -156,12 +182,3 @@ footer {
 	height:20px;
 }
 
-.page {
-	width:100%;
-	overflow-y:hidden;
-	overflow-x:auto;
-}
-
-.margintop{
-	margin-top:50px;
-}
