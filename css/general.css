@@ -38,6 +38,15 @@ h2 {
 	text-align: center;
 }
 
+.navname2 {
+	color:#008738;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	padding-top: 30px;
+	text-align: center;
+}
+
 .header {
 	color:#008738;
 	font-family: 'DM Sans', sans-serif;
@@ -86,6 +95,18 @@ h2 {
 	transition: 0.6s;
 }
 
+.navlinks2 {
+	color:#008738;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:13px;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	opacity: 0.6;
+	transition: 0.6s;
+}
+
 .abouttext {
 	margin: auto;
 	text-align: center;
@@ -116,6 +137,10 @@ h2 {
 
 .marginbottom {
 	margin-bottom: 60px;
+}
+
+.marginbottom2 {
+	margin-bottom: 30px;
 }
 
 p.date {
