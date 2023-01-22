@@ -56,6 +56,15 @@ h2 {
 	text-align: center;
 }
 
+.header3 {
+	color:white;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:15px;
+	margin-top: 0px;
+	text-align: center;
+}
+
 .headerwhite {
 	color:#ffffff;
 	font-family: 'DM Sans', sans-serif;
