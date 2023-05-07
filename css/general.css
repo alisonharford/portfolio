@@ -14,14 +14,14 @@ h2 {
 
 .bgorange {
 	width: 500;
-	background-color: #79c78f;
+	background-color: #0047ab;
 	padding-bottom: 20%;
 }
 
 .bgorange2 {
 	width: 500;
-	background-color: #79c78f;
-	padding-bottom: 5%;
+	background-color: #0047ab;
+	padding-bottom:2%;
 }
 
 .middle {
@@ -39,7 +39,7 @@ h2 {
 }
 
 .navname2 {
-	color:#79c78f;
+	color:#0047ab;
 	font-family: 'DM Sans', sans-serif;
 	font-weight:400;
 	font-size:17px;
@@ -48,11 +48,11 @@ h2 {
 }
 
 .header {
-	color:#79c78f;
+	color:#0047ab;
 	font-family: 'DM Sans', sans-serif;
 	font-weight:400;
 	font-size:17px;
-	margin-top: 30px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -61,7 +61,7 @@ h2 {
 	font-family: 'DM Sans', sans-serif;
 	font-weight:400;
 	font-size:15px;
-	margin-top: 0px;
+	margin-top: 10px;
 	text-align: center;
 }
 
@@ -79,7 +79,16 @@ h2 {
 	font-family: 'DM Sans', sans-serif;
 	font-weight:400;
 	font-size:17px;
-	padding-top: 30px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.footer {
+	color:#ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	padding-top: 2%;
 	text-align: center;
 }
 
@@ -96,7 +105,7 @@ h2 {
 }
 
 .navlinks2 {
-	color:#79c78f;
+	color:#0047ab;
 	font-family: 'DM Sans', sans-serif;
 	font-weight:400;
 	font-size:13px;
